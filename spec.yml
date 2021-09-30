@@ -1,0 +1,9 @@
+//github credentials not implemented yet
+
+github:
+  credentialsID:
+  
+sonarqube:
+  isneeded: true
+  url: "https://nxgendevops-sonarqube.eastus.cloudapp.azure.com"
+  token: "a45e06afa1a96eccd0a8a4e3aacce7cafa0b6908"
