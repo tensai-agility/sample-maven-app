@@ -1,7 +1,7 @@
-//github credentials not implemented yet
+# github credentials not implemented yet
 
-github:
-  credentialsID:
+# github:
+#   credentialsID:
   
 sonarqube:
   isneeded: true
