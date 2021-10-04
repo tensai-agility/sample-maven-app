@@ -2,6 +2,15 @@
 
 # github:
 #   credentialsID:
+
+docker:
+  imagename: "sampleapp"
+  tagname: "v1.0"
+
+jfrog:
+  url: "https://sixartifact.jfrog.io"
+  credentials: "AKCp8jRGUJZ7E9xEMs8SsaKzrys38n9vk9PDEnuV7RqWsoW5feUVoyoqf28L2zpic415v9ppP"
+  dockerregistry: "default-docker-virtual"
   
 sonarqube:
   isneeded: false
