@@ -9,8 +9,8 @@ docker:
 
 jfrog:
   url: "https://sixartifact.jfrog.io"
-  #credentials: "AKCp8jRGUJZ7E9xEMs8SsaKzrys38n9vk9PDEnuV7RqWsoW5feUVoyoqf28L2zpic415v9ppP"
-  credentials: "tensai_jfrog"
+  credentials: "AKCp8jRGUJZ7E9xEMs8SsaKzrys38n9vk9PDEnuV7RqWsoW5feUVoyoqf28L2zpic415v9ppP"
+  #credentials: "tensai_jfrog"
   dockerregistry: "default-docker-virtual"
   
 sonarqube:
