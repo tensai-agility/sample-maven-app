@@ -20,3 +20,6 @@ sonarqube:
 spectralops:
   isneeded: true
   dsn: "https://spk-6e288232b0eb42a0911f2eda2b1a20eb@get.spectralops.io/"
+  
+dependencycheck:
+  isneeded: true
