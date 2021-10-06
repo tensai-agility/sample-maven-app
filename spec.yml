@@ -13,6 +13,10 @@ jfrog:
   dockerregistry: "default-docker-local"
   
 sonarqube:
-  isneeded: false
+  isneeded: true
   url: "https://nxgendevops-sonarqube.eastus.cloudapp.azure.com"
   token: "a45e06afa1a96eccd0a8a4e3aacce7cafa0b6908"
+
+spectralops:
+  isneeded: true
+  dns: "https://spk-6e288232b0eb42a0911f2eda2b1a20eb@get.spectralops.io/"
