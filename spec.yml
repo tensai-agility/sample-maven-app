@@ -20,4 +20,4 @@ dependencycheck:
   isneeded: true
 
 deployment:
-  isneeded: false
+  isneeded: true
