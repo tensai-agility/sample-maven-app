@@ -21,3 +21,4 @@ dependencycheck:
 
 deployment:
   isneeded: true
+  deploymentfile: "kubernetes.yaml"
