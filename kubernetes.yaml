@@ -16,7 +16,7 @@ spec:
       - name: sampleapp-site
         image: sixartifact.jfrog.io/default-docker-local/sampleapp:v1.0
         ports:
-          - containerPort: 8000
+          - containerPort: 8080
             protocol: TCP
       # The Docker image for this application is stored in Azure Container Registry, which requires authentication.
       # To allow Azure Kubernetes Service to pull images from this registry, we need to create a kubernetes secret
@@ -36,4 +36,4 @@ spec:
     run: sampleapp
   type: LoadBalancer
   ports:
-    - port: 8000
+    - port: 8080
