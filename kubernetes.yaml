@@ -25,7 +25,7 @@ spec:
       # docker login pythonapppoc.azurecr.io
       # kubectl create secret docker-registry regcred --docker-server=parneraws-docker.jfrog.io --docker-username=admin --docker-password=[your_password] --docker-email=[your_email]
       imagePullSecrets:
-      - name: sampleapp2
+      - name: sampleapp3
 ---
 apiVersion: v1
 kind: Service
