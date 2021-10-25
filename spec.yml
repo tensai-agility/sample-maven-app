@@ -24,4 +24,4 @@ dependencycheck:
 deployment:
   isneeded: true
   deploymentfile: "kubernetes.yaml"
-  imagepullsecret: "sampleapp3"
+  imagepullsecret: "sampleapp4"
