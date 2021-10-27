@@ -14,15 +14,10 @@ spec:
     spec:
       containers:
       - name: sampleapp-site
-        image: IMAGE_TO_DEPLOY
+        image: {{IMAGE_TO_DEPLOY}}
         ports:
           - containerPort: 8080
             protocol: TCP
-      # The Docker image for this application is stored in Azure Container Registry, which requires authentication.
-      # To allow Azure Kubernetes Service to pull images from this registry, we need to create a kubernetes secret
-      # using the following commands:
-      #
-      # docker login pythonapppoc.azurecr.io
       # kubectl create secret docker-registry regcred --docker-server=parneraws-docker.jfrog.io --docker-username=admin --docker-password=[your_password] --docker-email=[your_email]
       imagePullSecrets:
       - name: sampleapp5
