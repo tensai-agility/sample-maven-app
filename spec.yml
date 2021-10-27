@@ -21,6 +21,7 @@ spectralops:
 dependencycheck:
   isneeded: true
 
+# if rollback required in deployment change the imagetodeploy value in deployment section below
 deployment:
   isneeded: true
   deploymentfile: "kubernetes.yaml"
