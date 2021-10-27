@@ -1,6 +1,6 @@
 docker:
   imagename: "sampleapp"
-  tagname: "v1.0"
+  tagname: "v2.0"
 
 jfrog:
   url: "https://sixartifact.jfrog.io/artifactory"
@@ -25,5 +25,5 @@ dependencycheck:
 deployment:
   isneeded: true
   deploymentfile: "kubernetes.yaml"
-  imagetodeploy: "sixartifact.jfrog.io/default-docker-local/sampleapp:v1.0"
+  imagetodeploy: "sixartifact.jfrog.io/default-docker-local/sampleapp:v2.0"
   imagepullsecret: "sampleapp5"
