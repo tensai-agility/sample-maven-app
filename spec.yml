@@ -1,6 +1,6 @@
 docker:
   imagename: "sampleapp"
-  tagname: "v2.0"
+  tagname: "v1.0"
 
 jfrog:
   url: "https://sixartifact.jfrog.io/artifactory"
