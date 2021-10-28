@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sampleapp-site
-        image: ${IMAGE_TO_DEPLOY}
+        image: sixartifact.jfrog.io/default-docker-local/sampleapp:v2.0
         ports:
           - containerPort: 8080
             protocol: TCP
